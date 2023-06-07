@@ -1,0 +1,836 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.head{
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 8%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 15px;
+    color: darkgreen;
+}
+nav ul li:hover{
+    color:limegreen;
+}
+#f1{
+    display: none;
+}
+.home{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -1;
+    background-image: linear-gradient(rgba(10,0,0,0.9),rgba(30,0,0,0.5)) ,url(../image/i02.jpeg);
+}
+.home h1{
+    font-size: 50px;
+    color: white;
+    text-align:left;
+    position: absolute;
+    top: 35vh;
+    left: 140px;
+}
+.home p{
+    position: absolute;
+    top: 55vh;
+    left: 140px;
+    color: white;
+    font-size: 20px;
+}
+.home button{
+    position: absolute;
+    top: 66vh;
+    left: 140px;
+    padding: 10px;
+    border: 3px solid darkgreen;
+    background: darkgreen;
+    color: white;
+    font-size: 20px;
+}
+.home button:hover{
+    background: transparent;
+    border: 3px solid darkgreen;
+    color: black;
+}
+.ins{
+    height: 70vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ins1{
+    width: 80%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in1{
+    height:60vh;
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+}
+.in1 img{
+    width: 100%;
+    height: 100%;
+}
+.in1 h1{
+    font-size: 50px;
+    padding: 10px;
+    color: darkorange;
+}
+.in1 .fa{
+    color: darkgreen;
+    font-size: 25px;
+    padding: 10px;
+}
+.in1 p{
+    font-size: 17px;
+    padding: 10px;
+}
+.in1 button{
+    background-color: darkgreen;
+    padding: 14px;
+    border: 0px solid darkgreen;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+.in1 button:hover{
+    background: transparent;
+    border: 3px solid darkgreen;
+    color: black;
+}
+.fi1{
+    height: 40vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fi2{
+    flex-basis: 33.33%;
+    height: inherit;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white;
+}
+.fi2 .fa{
+    font-size: 60px;
+    padding: 20px;
+}
+.fi2 h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.fi2 p{
+    padding:7px 100px;
+    line-height: 26px;
+}
+.fi2:nth-of-type(1):hover{
+    object-fit: fill;
+    background-image: linear-gradient(rgba(0, 50, 0, 0.6),rgba(0,50,0,0.6)),url(../image/i05.jpg);
+}
+.fi2:nth-of-type(2):hover{
+   background-position: center;
+    background-image: linear-gradient(rgba(0, 50, 0, 0.6),rgba(0,50,0,0.6)),url(../image/i06.jpg);
+}
+.fi2:nth-of-type(3):hover{
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 50, 0, 0.6),rgba(0,50,0,0.6)),url(../image/i07.jpg);
+}
+.about{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab1{
+    width: 80%;
+    height: 75vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ab2{
+    flex-basis: 50%;
+    height: 70vh;
+}
+.ab2 img{
+    width: 100%;
+    height: 100%;
+}
+.ab2 h1{
+    color: darkorange;
+    font-size: 50px;
+    padding: 10px;
+}
+.ab2 li{
+    font-size: 20px;
+    color: darkolivegreen;
+    padding: 10px;
+}
+.ab2 p{
+    font-size: 18px;
+    padding: 10px;
+    color: darkolivegreen;
+}
+.counter p{
+    font-size: 20px;
+}
+.counter{
+    color: darkorange;
+    font-size: 30px;
+    margin-left: 3px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 30px;
+}
+.team{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.team h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: darkorange;
+}
+.te1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.te2{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.te{
+    flex-basis: 30%;
+    text-align: center;
+}
+.te img{
+    border-radius: 50%;
+    width: 50%;
+}
+.te h5{
+    font-size: 25px;
+    padding: 15px;
+}
+.te h4{
+    font-size: 20px;
+    color:darkolivegreen;
+}
+.te p{
+    padding: 10px;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.news{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.news h1{
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+}
+.ne1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ne2{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid  black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ne{
+    flex-basis: 30%;
+    margin: 20px;
+}
+.ne img{
+    width: 100%;
+}
+.ne h6{
+    font-size: 20px;
+    padding: 10px;
+}
+.ne h3{
+    font-size: 24px;
+    padding: 10px;
+    color: darkblue;
+}
+.ne h5{
+    color: darkolivegreen;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.testi{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.testi h1{
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+}
+.tes1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tes2{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.tes{
+    flex-basis: 30%;
+    text-align: center;
+    margin-top: 40px;
+}
+.tes img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+.tes p{
+    font-size: 19px;
+    padding: 20px;
+}
+.tes h4{
+    font-size: 24px;
+    color: darkolivegreen;
+    margin-bottom: 20px;
+}
+.con1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con{
+    flex-basis: 40%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.con img{
+    width: 100%;
+}
+form h1{
+    font-size: 50px;
+    color: darkorange;
+    padding: 10px;
+}
+input{
+    width: 40%;
+    height: 40px;
+}
+#in{
+    width: 490px;
+}
+textarea{
+    width: 490px;
+}
+form button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: darkgreen;
+    border: 0px solid darkgreen;
+    color: white;
+}
+form button:hover{
+    background-color: darkolivegreen;
+}
+footer{
+    height: 70px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white;
+}
+footer h3{
+    flex-basis: 50%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/* Responsive :start */
+@media(min-width:721px) and (max-width:980px){
+    .logo{
+        width: 20%;
+    }
+    #f1{
+        display: block;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    nav ul li{
+        /* display: none; */
+        display: block;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        display: none;
+    }
+    .home h1{
+        left: 40px;
+        font-size: 30px;
+    }
+    .home p{
+        left: 40px;
+        top: 50vh;
+    }
+    .home button{
+        left: 40px;
+        top: 59vh;
+    }
+    .ins{
+        height: auto;
+    }
+    .ins1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fi1{
+        height: auto;
+    }
+    .fi2{
+        height: 220px;
+    }
+    .fi2 .fa{
+        padding: 2px;
+    }
+    .fi2 h3{
+        padding: 1px;
+    }
+    .fi2 p{
+        padding:1px;
+        line-height: 20px;
+    }
+    .about{
+        height: auto;
+    }
+    .ab1{
+        height: auto;
+        flex-direction: column;
+    }
+    .ab2 h1{
+        text-align: center;
+    }
+    .ab2{
+        height: auto;
+    }
+    .counter{
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .counter p{
+        font-size: 15px;
+    }
+    .te2{
+       flex-basis: 100%;
+    }
+    .ne2{
+        flex-direction: column;
+    }
+    .tes2{
+        flex-direction: column;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    input{
+        width: auto;
+    }
+    #in{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:481px) and (max-width:720px){
+    .logo{
+        width: 20%;
+    }
+    #f1{
+        display: block;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    nav ul li{
+        /* display: none; */
+        display: block;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        display: none;
+    }
+    .home h1{
+        left: 10px;
+        font-size: 25px;
+    }
+    .home p{
+        left: 10px;
+        top: 50vh;
+    }
+    .home button{
+        left: 10px;
+        top: 59vh;
+    }
+    .ins{
+        height: auto;
+    }
+    .ins1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    .about{
+        height: auto;
+    }
+    .ab1{
+        height: auto;
+        flex-direction: column;
+    }
+    .ab2 h1{
+        text-align: center;
+    }
+    .ab2{
+        height: auto;
+    }
+    .counter{
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .counter p{
+        font-size: 15px;
+    }
+    .te2{
+        flex-direction: column;
+    }
+    .ne2{
+        flex-direction: column;
+    }
+    .tes2{
+        flex-direction: column;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    input{
+        width: auto;
+    }
+    #in{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:361px) and (max-width:480px){
+    .logo{
+        width: 20%;
+    }
+    #f1{
+        display: block;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    nav ul li{
+        /* display: none; */
+        display: block;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        display: none;
+    }
+    .home h1{
+        left: 10px;
+        font-size: 25px;
+    }
+    .home p{
+        left: 10px;
+        top: 50vh;
+    }
+    .home button{
+        left: 10px;
+        top: 59vh;
+    }
+    .ins{
+        height: auto;
+    }
+    .ins1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .in1 .fa{
+        font-size: 20px;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    .about{
+        height: auto;
+    }
+    .ab1{
+        height: auto;
+        flex-direction: column;
+    }
+    .ab2{
+        height: auto;
+    }
+    .counter{
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .counter p{
+        font-size: 15px;
+    }
+    .te2{
+        flex-direction: column;
+    }   
+    .ne2{
+        flex-direction: column;
+    }
+    .tes2{
+        flex-direction: column;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    input{
+        width: auto;
+    }
+    #in{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+    
+
+}
+
+@media(min-width:0px) and (max-width:360px){
+    .logo{
+        width: 20%;
+    }
+    #f1{
+        display: block;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    nav ul li{
+        /* display: none; */
+        display: block;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color:white;
+        width: 100%;
+        display: none;
+    }
+    .home h1{
+        left: 10px;
+        font-size: 25px;
+    }
+    .home p{
+        left: 10px;
+        top: 50vh;
+    }
+    .home button{
+        left: 10px;
+        top: 59vh;
+    }
+    .ins{
+        height: auto;
+    }
+    .ins1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .in1 .fa{
+        font-size: 20px;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    .about{
+        height: auto;
+    }
+    .ab1{
+        height: auto;
+        flex-direction: column;
+    }
+    .ab2{
+        height: auto;
+    }
+    .counter{
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .counter p{
+        font-size: 15px;
+    }
+    .te2{
+        flex-direction: column;
+    }
+    .ne2{
+        flex-direction: column;
+    }
+    .tes2{
+        flex-direction: column;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    input{
+        width: auto;
+    }
+    #in{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+}
