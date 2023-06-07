@@ -1,0 +1,1545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li::before{
+	content: "";
+	height: 5%;
+	width: 0px;
+	background: rgb(154, 3, 3);
+	position: absolute;
+	bottom: 10px;
+	left: 14px;
+	display: block;
+	transition: 1s;
+}
+nav li:hover::before{
+	width: 65%;
+}
+.menu1{
+    /* display: block; */
+    display: none;
+    margin-top:250px;
+    background-color: black;
+    color: white;
+}
+/* nav ul li:hover .menu1{
+    display: block;
+    display: none;
+} */
+/* #list:hover .menu1{
+    display: block;
+} */
+.btn{
+    display: flex;
+    cursor: pointer;
+    /* margin: 10px */
+}
+.btn li{
+    list-style: none;
+    padding: 10px;
+    font-size: 17px;
+}
+.btn #fa{
+    padding: 10px;
+    font-size: 20px;
+}
+#fa1{
+    display: none;
+}
+.first{
+    height:100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fi1{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fi{
+    height: inherit ;
+    flex-basis: 49.85%;
+}
+.fi img{
+    height: 100%;
+    width: 100%;
+}
+#fi{
+    position: relative;
+}
+#fi h2{
+    position: absolute;
+    top: 40vh;
+    left: 10%;
+    font-size: 39px;
+}
+#fi p{
+    position: absolute;
+    top: 47vh;
+    left: 10%;
+}
+#fi h6{
+    position: absolute;
+    top: 54vh;
+    left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#fi div{
+    position: absolute;
+    top: 57.10vh;
+    left: 10%;
+    /* height: 1px solid black; */
+    width: 110px;
+    border: 2px solid  rgb(154, 3, 3);
+}
+#fi1{
+    height: 99vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fi2{
+    flex-basis: 49%;
+}
+#fi2 img{
+    height: 356px;
+    width: 100%;
+}
+.fi21{
+    position: relative;
+}
+.fi21 h2{
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    font-size: 30px;
+}
+.fi21 h5{
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    font-size: 20px;
+}
+.fi21 h6{
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fi21 div{
+    position: absolute;
+    top: 34vh;
+    left: 10%;
+    /* height: 1px solid black; */
+    width: 110px;
+    border: 2px solid  rgb(154, 3, 3);
+}
+.fi22{
+    position: relative;
+}
+.fi22 h2{
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    font-size: 30px;
+    /* color: white; */
+}
+.fi22 h5{
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    font-size: 20px;
+    /* color: white; */
+}
+.fi22 h6{
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: white; */
+}
+.fi22 div{
+    position: absolute;
+    top: 34vh;
+    left: 10%;
+    /* height: 1px solid black; */
+    width: 110px;
+    border: 2px solid  rgb(154, 3, 3);
+}
+.fi11{
+    position: relative;
+}
+.fi11 h2{
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    font-size: 30px;
+}
+.fi11 h5{
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    font-size: 20px;
+}
+.fi11 h6{
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fi11 div{
+    position: absolute;
+    top: 34vh;
+    left: 10%;
+    /* height: 1px solid black; */
+    width: 110px;
+    border: 2px solid  rgb(154, 3, 3);
+}
+.fi12{
+    position: relative;
+}
+.fi12 h2{
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    font-size: 30px;   
+}
+.fi12 h5{
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    font-size: 20px;
+}
+.fi12 h6{
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fi12 div{
+    position: absolute;
+    top: 34vh;
+    left: 10%;
+    height: 1px solid black;
+    width: 110px;
+    border: 2px solid  rgb(154, 3, 3);
+}
+.new{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.ne1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.logo2{
+    width: 20%;
+    position: relative;
+}
+.logo2 div{
+    width: 25%;
+    border: 2px solid rgb(154, 3, 3);
+}
+.se ul li{
+    list-style: none;
+    display: flex;
+}
+.ne2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nec{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nei{
+    flex-basis: 23%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.nei img{ 
+    width: 100%;
+    height: 300px;
+}
+.nei p{
+    padding: 5px;
+    font-size: 20px;
+}
+.nei .fa{
+    color: goldenrod;
+}
+.nei h5{
+    padding: 5px;
+    font-size: 18px;
+}
+.nei h4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+}
+.ri1{
+    position: relative;
+}
+.ri1 #rii{
+    /* border: 1px solid black solid black; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: none;
+    position: absolute; 
+    bottom: 100px;
+    left: 60px;
+    background-color: white;
+    transition: 1s;
+}
+#rii:hover{
+    transform: rotate(360deg);
+    background-color: red;
+}
+.nei:hover #rii{
+    display: block;
+}
+.ri1 #rii1{
+    /* border: 1px solid black solid black; */
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size:20px;
+    border-radius: 50%;
+    position: absolute; 
+    bottom: 100px;
+    left: 110px;
+    display: none;
+    transition: 1s;
+}
+#rii1:hover{
+    transform: rotate(360deg);
+    background-color: red;
+}
+.nei:hover #rii1{
+    display: block;
+ 
+}
+.ri1 #rii2{
+    /* border: 1px solid black solid black; */
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size:20px;
+    border-radius: 50%;
+    display: none;
+    position: absolute; 
+    bottom: 100px;
+    left: 160px;
+    transition: 1s;
+}
+#rii2:hover{
+    transform: rotate(360deg);
+    background-color: red;
+}
+.nei:hover #rii2{
+    display: block; 
+}
+#rii:hover{
+    transform: rotate(360deg);
+}
+.slide{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.sli h5{
+    font-size: 20px;
+    padding: 10px;
+}
+.sli h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    padding: 10px;
+}
+.sli h6{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: auto;   
+    cursor: pointer; 
+}
+.seller{
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.se1{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sei{
+    height: auto;
+    flex-basis: 28%;
+    /* border: 1px solid black; */
+}
+.sei h1{
+   margin:50px  0px;
+   font-size: 30px;
+}
+.se{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 30px 0px;
+    position: relative;
+}
+.se h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se2{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se2 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se2 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se2 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se3{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se3 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se3 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se3 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se4{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se4 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se4 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se4 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se5{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se5 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se5 div{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color: goldenrod;
+}
+.se5 h6{
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    font-size: 20px;
+}
+.se6{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se6 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se6 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se6 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se7{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se7 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se7 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se7 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se8{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se8 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se8 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se8 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.se9{
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    position: relative;
+}
+.se9 h2{
+    position: absolute;
+    left: 100px;
+    top: -0px;
+    font-size: 20px;
+}
+.se9 div{
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    color: goldenrod;
+}
+.se9 h6{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 20px;
+}
+.summ{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.bg1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    flex-basis: 40%;
+    height: 350px;
+    /* border: 1px solid black; */
+    background-color: ghostwhite;
+    text-align: center;
+    position: relative;
+}
+.bg img{
+    height: 100%;
+    width: 100%;
+}
+.bg h6{
+    padding-top: 70px;
+    font-size: 18px;
+}
+.bg h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    color: darkred;
+}
+.bg h4{
+    font-size: 20px;
+    padding: 10px;
+}
+.bg p{
+    font-size: 18px;
+    padding: 10px;
+}
+.bg h5{
+    font-size: 20px;
+    padding: 10px;
+}
+.bg div{
+    position: absolute;
+    border: 2px solid darkred;
+    left: 250px;
+    width: 100px;
+}
+.sum1{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sum2{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sum{
+    flex-basis: 20%;
+    height: 87px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 60px 0px;
+}
+.sum .fa{
+    font-size: 45px;
+    color: darkred;
+    padding: 15px;
+}
+.sum h4{
+    position: absolute;
+    /* border: 1px solid black; */
+    left: 100px;
+    top: 20px;
+    font-size: 20px;
+}
+.sum h6{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    font-size: 14px;
+}
+.last{
+    /* height: 400px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.la{
+    height: 300px;
+    flex-basis: 16.65%;
+    position: relative;
+}
+.la img{
+    width: 100%;
+    height: 100%;
+}
+.la .fa{
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 40px;
+}
+.la h6{
+    display: none;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    font-size: 20px;
+}
+.la:hover{
+    opacity: 0.9;
+}
+.la:hover .fa{
+    display: block;
+}
+.la:hover h6{
+    display: block;
+}
+footer{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.fo1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fo2{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    border-bottom: 1px solid grey;
+}
+.fo{
+    height: 250px;
+    flex-basis: auto;
+    /* border: 1px solid black; */
+    padding: 40px;
+}
+.fo img{
+    padding: 5px;
+}
+.fo p{
+    padding: 5px;
+}
+.fo h3{
+    font-size: 20px;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot h5{
+   font-size: 27px;
+   padding: 20px;
+}
+form{
+    position: relative;
+    /* border: 1px solid black; */
+    /* margin-top: 60px; */
+}
+form input{
+    margin-top: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+}
+form button{
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    right: 5px;
+    top: 25px;
+    border: 0px solid black;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(159, 4, 4);
+}
+form .fa{
+    border: 0px solid black;
+    padding: 16px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: gainsboro;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive :start */
+@media(min-width:721px) and (max-width:980PX){
+    header{
+        position: relative;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 550px;
+        background-color: whitesmoke;
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+    }
+    .first{
+        height: auto;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi1{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    #fi h2{
+        top: 10vh;
+        font-size: 29px;
+    }
+    #fi p{
+        top: 17vh;
+    }
+    #fi h6{
+        top: 29vh;
+    }
+    #fi div{
+        top: 33.10vh;
+    }
+    .second{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .logo2{
+        margin-right: auto;
+    }
+    .ne2{
+        height: auto;
+    }
+    .nec{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        /* flex-direction: column-reverse; */
+    }
+    .nei{
+        flex-basis: 30%;
+    }
+    .sli h5{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .sli h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .sli h6{
+        font-size: 17px;
+        padding: 4px;
+    }
+    .seller{
+        height: auto;
+    }
+    .se1{
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* width: 100%; */
+    }
+    .sei{
+        flex-basis: 50%;
+    }
+    .bg2{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .bg{
+       width: 100%; 
+        /* border: 1px solid black; */
+    }
+    .bg div{
+        display: none;
+    }
+    .sum1{
+        height:auto;
+        width: 100%;
+    }
+    .sum2{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .sum{
+        /* border: 1px solid black; */
+        flex-basis: 40%;
+        height: auto;
+        margin: 20px 0px;
+        margin-left: 00px;
+    }
+    .sum .fa{
+        padding: 10px;
+    }
+    .sum h4{
+        width: 100%;
+        /* border: 1px solid black; */
+        left: 80px;
+        top: 0px;
+    }
+    .sum h6{
+        top: 30px;
+        left: 80px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .last{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .la{
+        /* border: 1px solid black; */
+        flex-basis: 50%;
+    }
+    .la img{
+        width:100%;
+        height: 300px;
+    }
+    .fo2{
+        flex-wrap: wrap;
+    }
+    .fo{
+        height: auto;
+        padding: 0px;
+        flex-basis: 50%;
+        /* border: 1px solid black; */
+    }
+    .fo input{
+        width: 140px;
+    }
+    .fo button{
+        display: none;
+    }
+    .foot{
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .foot h5{
+        font-size: 20px
+    }
+
+}
+
+@media(min-width:481px) and (max-width:720PX){
+    header{
+        position: relative;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 550px;
+        background-color: whitesmoke;
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+    }
+    .first{
+        height: auto;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi1{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    #fi h2{
+        top: 10vh;
+        font-size: 29px;
+    }
+    #fi p{
+        top: 17vh;
+    }
+    #fi h6{
+        top: 29vh;
+    }
+    #fi div{
+        top: 33.10vh;
+    }
+    .second{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .logo2{
+       margin-right: auto;
+    }
+    .ne2{
+        height: auto;
+    }
+    .nec{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        /* flex-direction: column-reverse; */
+    }
+    .nei{
+        flex-basis: 48%;
+    }
+    .sli h5{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .sli h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .sli h6{
+        font-size: 14px;
+        padding: 4px;
+    }
+    .seller{
+        height: auto;
+    }
+    .se1{
+        height: auto;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .sei{
+        width: 50%;
+    }
+    .bg2{
+        height: auto;
+        width: 100%;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .bg{
+       width: 500px; 
+        /* border: 1px solid black; */
+    }
+    .bg div{
+        display: none;
+    }
+    .sum1{
+        height:auto;
+        width: 100%;
+    }
+    .sum2{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .sum{
+        flex-basis: 50%;
+        height: auto;
+        margin: 50px 0px;
+        margin-left: -100px;
+    }
+    .sum .fa{
+        padding: 10px;
+    }
+    .sum h4{
+        width: 100%;
+        /* border: 1px solid black; */
+        left: 100px;
+        top: 0px;
+    }
+    .sum h6{
+        top: 60px;
+        width: 70px;
+        /* border: 1px solid black; */
+    }
+    .last{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .la{
+        flex-basis: 40%;
+    }
+    .la img{
+        width:100%;
+        height: 300px;
+    }
+    .fo2{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .fo{
+        height: 270px;
+        padding: 10px;
+        flex-basis: 50%;
+        /* border: 1px solid black; */
+    }
+    .fo input{
+        width: 140px;
+    }
+    .fo button{
+        display: none;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .foot h5{
+        font-size: 20px
+    }
+}
+@media(min-width:361px) and (max-width:480PX){
+    header{
+        position: relative;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 550px;
+        background-color: whitesmoke;
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+    }
+    .first{
+        height: auto;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi h2{
+        top: 10vh;
+        font-size: 29px;
+    }
+    #fi p{
+        top: 17vh;
+    }
+    #fi h6{
+        top: 29vh;
+    }
+    #fi div{
+        top: 33.10vh;
+    }
+    .second{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .logo2{
+        margin-right: auto;
+    }
+    .ne2{
+        height: auto;
+    }
+    .nec{
+        height: auto;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .nei{
+        width: 90%;
+    }
+    .sli h5{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .sli h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .sli h6{
+        font-size: 14px;
+        padding: 4px;
+    }
+    .seller{
+        height: auto;
+    }
+    .se1{
+        height: auto;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .sei{
+        width: 90%;
+    }
+    .bg2{
+        height: auto;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .bg div{
+        display: none;
+    }
+    .sum1{
+        height:auto;
+    }
+    .sum2{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sum{
+        flex-basis: 100%;
+        height: auto;
+        margin: 50px 10px;
+        margin-left: -100px;
+    }
+    .sum .fa{
+        padding: 5px;
+    }
+    .sum h4{
+        width: 100%;
+        /* border: 1px solid black; */
+        left: 100px;
+        top: 0px;
+    }
+    .sum h6{
+        top: 60px;
+        width: 70px;
+        /* border: 1px solid black; */
+    }
+    .last{
+        flex-direction: column;
+        height: auto;
+    }
+    .la img{
+        width:400px;
+        height: 300px;
+    }
+    .fo2{
+        flex-direction: column;
+    }
+    .fo{
+        height: auto;
+        /* border: 1px solid black; */
+        padding: 10px;
+        width: 100%;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .foot h5{
+        font-size: 20px;
+    }
+}
+@media(min-width:0px) and (max-width:360PX){
+    header{
+        position: relative;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 550px;
+        background-color: whitesmoke;
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+    }
+    .first{
+        height: auto;
+    }
+    .fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi1{
+        height: auto;
+        flex-direction: column;
+    }
+    #fi h2{
+        top: 10vh;
+        font-size: 29px;
+    }
+    #fi p{
+        top: 17vh;
+    }
+    #fi h6{
+        top: 29vh;
+    }
+    #fi div{
+        top: 33.10vh;
+    }
+    .second{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .logo2{
+        margin-right: auto;
+    }
+    .ne2{
+        height: auto;
+    }
+    .nec{
+        height: auto;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .nei{
+        width: 90%;
+    }
+    .sli h5{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .sli h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .sli h6{
+        font-size: 14px;
+        padding: 4px;
+    }
+    .seller{
+        height: auto;
+    }
+    .se1{
+        height: auto;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .sei{
+        width: 90%;
+    }
+    .bg2{
+        height: auto;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .bg div{
+        display: none;
+    }
+    .sum1{
+        height:auto;
+    }
+    .sum2{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sum{
+        flex-basis: 100%;
+        height: auto;
+        margin: 50px 10px;
+        margin-left: -100px;
+    }
+    .sum .fa{
+        padding: 5px;
+    }
+    .sum h4{
+        width: 100%;
+        /* border: 1px solid black; */
+        left: 100px;
+        top: 0px;
+    }
+    .sum h6{
+        top: 60px;
+        width: 70px;
+        /* border: 1px solid black; */
+    }
+    .last{
+        flex-direction: column;
+        height: auto;
+    }
+    .la img{
+        width: 300px;
+        height: 300px;
+    }
+    .fo2{
+        flex-direction: column;
+    }
+    .fo{
+        height: auto;
+        /* border: 1px solid black; */
+        padding: 10px;
+        width: 100%;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .foot h5{
+        font-size: 20px;
+    }
+}
