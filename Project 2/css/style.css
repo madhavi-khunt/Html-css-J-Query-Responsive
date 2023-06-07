@@ -1,0 +1,1022 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.logo{
+    height: 80px;
+    width: 6%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.logo span{
+    font-family: 'Sigmar', cursive;
+    position: absolute;
+    left: 7%;
+    top: 20px;
+    font-size: 45px;
+    /* color: gray; */
+}
+#fa1{
+    display: none;
+}
+#fa2{
+    display: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px;
+    font-size: 25px;
+    cursor: pointer;
+}
+header button{
+    width: 15%;
+    height: 100px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    border: 0px solid wheat;
+}
+header button:hover{
+    background-color: gray;
+}
+.home{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,00,0,0.6),rgba(0,00,0,0.9)),url(../images/bg.jpg);
+    position: relative;
+    z-index: -1;
+}
+.home h1{
+    color: white;
+    font-family: 'Sigmar', cursive;
+    position: absolute;
+    top: 200px;
+    font-size: 60px;
+    left: 150px;
+}
+.home h2{
+    color: white;
+    font-family: 'Sigmar', cursive;
+    position: absolute;
+    top: 270px;
+    font-size: 60px;
+    left: 150px;
+}
+.home p{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 380px;
+    font-size: 26px;
+    left: 150px;
+}
+.home #p{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 420px;
+    font-size: 26px;
+    left: 150px;
+}
+#btn2{
+    position: absolute;
+     top: 470px; 
+    font-size: 20px;
+    left: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer; 
+}
+#btn2:hover{
+    background-color: gray;
+}
+.about{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab1{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ab2{
+    flex-basis: 45%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.ab2 img{
+    width: 100%;
+}
+.ab2 h5{
+    font-size: 20px;
+    padding: 20px;
+    color: gold;
+}
+.ab2 h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.ab2 p{
+    font-size: 20px;
+    padding: 20px;
+    color: gray;
+}
+.legal{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.legal #p2{
+    text-align: center;
+    color: gold;
+    padding: 0px;
+    font-size: 20px;
+}
+.legal h1{
+    text-align: center;
+    font-size: 40px;    
+    padding: 15px;
+}
+.legal .p1{
+    color: black;
+    text-align: center;
+    padding-bottom: 19px;
+}
+.le1{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.le2{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.le{
+    flex-basis: 30%;
+}
+.le img{
+    width: 100%;
+}
+.le h3 ,.pp{
+    background-color: gray;
+    margin-top: -4px;
+}
+.le h3{
+    font-size: 25px;
+    padding: 10px;
+    color: gold;
+}
+.le .pp{
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+.table{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../images/e.jpg );
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ta1{
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+}
+.table .ta{
+    flex-basis: 30%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.ta h6{
+    font-size: 17px;
+    padding: 20px;
+    color: gold;
+}
+.ta h3{
+    font-size: 30px;
+    padding: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+.ta p{
+    padding:15px;
+    font-size: 20px;
+    color: white;
+}
+#ta{
+    background-color: white;
+    text-align: center;
+}
+#ta h2{
+    color: gold;
+    font-size: 23px;
+    padding: 20px;
+}
+#ta h1{
+    font-size: 50px;
+    padding: 10px;
+}
+#ta li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+#ta button{
+    padding: 10px;
+    background-color: white;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#ta button:hover{
+    background-color: gray;
+    border: 1px solid gray;
+}
+.client{
+    height: 40vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.client h6 ,h1{
+    text-align: center;
+}
+.client h6{
+    color: gold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.client h1{
+    font-size: 40px;
+}
+.cl{
+    height: 35vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cl1{
+    height: 30vh;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team{
+    height: 70vh;
+    width:100%;
+    /* border: 1px solid black; */
+}
+.team h3{
+    font-size: 45px;
+    text-align: center;
+}
+.te{
+    height: 68vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.te1{
+    width: 80%;
+    height: 57vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.te2{
+    flex-basis: 22%;
+    height: 52vh;
+    /* border: 1px solid black; */
+    background-color:whitesmoke;
+    box-shadow: 2px 4px 4px 5px gray;
+}
+.te2 img{
+    width: 90%;
+    height: 80%;
+  margin-left:15px;
+}
+.te2 h6{
+    font-size: 26px;
+    text-align: center;
+}
+.te2 p{
+    text-align: center;
+    font-size: 18px;
+
+}
+.te2:hover{
+    background-color: black;
+    color: white;
+}
+.contact{
+    height: 3
+    0vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.contact h4{
+    text-align: center;
+    font-size: 40px;
+}
+.con{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.con1{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.co{
+    flex-basis: 24%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.co #f{
+    font-size: 100px;
+  margin-bottom: 10px;
+}
+.co h3{
+    font-size: 20px;
+}
+.co .fa{
+    padding: 5px;
+    font-size:25px;
+}
+iframe{
+    width: 100%;
+    margin-top: 10px;
+}
+footer{
+    height: 80px;
+    border: 1px solid black;
+    background-color: black;
+    color: white    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 80%;
+    /* border: 1px solid wheat ;     */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* Responsive :start */
+
+@media(min-width:721px) and (max-width:980px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo{
+        height: 60px;
+        width: 10%;
+    }
+    .logo span{
+        left: 10%;
+        top: 40px;
+        font-size: 25px;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        background-color:white;
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 28px
+    }
+    #fa2{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        font-size: 25px;
+        /* display: none; */
+    }
+    header button{
+        display: none;
+    }
+    .home{
+        height: 85vh;
+        width: 100%;
+    }
+    .home h1{
+        top: 280px;
+        font-size: 20px;
+        left: 20px;
+    }
+    .home h2{
+        top: 310px;
+        font-size: 20px;
+        left: 20px;
+    }
+    .home p{
+        top: 370px;
+        font-size: 19px;
+        left: 15px;
+    }
+    .home #p{
+        font-size: 19px;
+        top: 400px;
+        left: 15px;
+    }
+    .home #btn2{
+        top: 450px;
+        font-size: 17px;
+        left: 15px;
+        padding:8px;
+    }
+    .about{
+        height: auto;
+        margin: 10px 0px;
+    }
+    .ab2 img{
+        height: 300px;
+    }
+    .ab2 h5{
+        font-size: 19px;
+        padding: 3px;
+    }
+    .ab2 h2{
+        font-size: 34px;
+        padding: 3px;
+    }
+    .ab2 p{
+        font-size: 18px;
+        padding: 3px;
+    }
+    .team{
+        height: auto;
+    }
+    .te2{
+        height: 400px;
+    }
+    .contact{
+        height: auto;
+    }
+}
+@media(min-width:481px) and (max-width:720px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo{
+        height: 60px;
+        width: 10%;
+    }
+    .logo span{
+        left: 10%;
+        top: 40px;
+        font-size: 25px;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        background-color:white;
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 28px
+    }
+    #fa2{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        font-size: 25px;
+        /* display: none; */
+    }
+    header button{
+        display: none;
+    }
+    .home{
+        height: 85vh;
+        width: 100%;
+    }
+    .home h1{
+        top: 280px;
+        font-size: 20px;
+        left: 20px;
+    }
+    .home h2{
+        top: 310px;
+        font-size: 20px;
+        left: 20px;
+    }
+    .home p{
+        top: 370px;
+        font-size: 19px;
+        left: 15px;
+    }
+    .home #p{
+        font-size: 19px;
+        top: 400px;
+        left: 15px;
+    }
+    .home #btn2{
+        top: 450px;
+        font-size: 17px;
+        left: 15px;
+        padding:8px;
+    }
+    .about{
+        height: auto;
+        margin: 20px 0px;
+    }
+    .ab1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .ab2 h5{
+        padding: 6px;
+    }
+    .ab2 h2{
+        padding: 6px;
+    }
+    .ab2 p{
+        padding: 6px;
+    }
+    .legal{
+        height: auto;
+    }
+    .le2{
+        width: 80%;
+        flex-direction: column;
+    }
+    .ta p{
+        font-size: 17px;
+    }
+    .ta h6{
+        padding: 5px;
+    }
+    #ta h2{
+        padding: 15px;
+    }
+    #ta h1{
+        padding: 15px;
+        font-size: 30px;
+    }
+    #ta button{
+        padding: 4px;
+        width: 100px;
+    }
+    .client{
+        height: auto;
+    }
+    .cl1{
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+    .cl2{
+        flex-basis: 50%; 
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+    .team{
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    .te{
+        height: auto;
+    }
+    .te1{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .te2{
+        flex-basis: 45%;
+        margin-bottom: 15px;
+    }
+    .contact{
+        height: auto;
+        /* border: 1px solid black;  */
+    }
+    .con{
+        height: auto;
+    }
+    .con1{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .co{
+        height: auto;
+        flex-basis: 40%;
+    }
+    
+}
+@media(min-width:361px) and (max-width:480px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo{
+        height: 60px;
+        width: 10%;
+    }
+    .logo span{
+        position: absolute;
+        left: 10%;
+        top: 40px;
+        font-size: 25px;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        background-color:white;
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 28px
+    }
+    #fa2{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        font-size: 25px;
+        /* display: none; */
+    }
+    header button{
+        display: none;
+    }
+    .home{
+        height: 85vh;
+        width: 100%;
+    }
+    .home h1{
+        top: 280px;
+        font-size: 20px;
+        left: 10px;
+    }
+    .home h2{
+        top: 310px;
+        font-size: 20px;
+        left: 10px;
+    }
+    .home p{
+        top: 350px;
+        font-size: 18px;
+        left: 10px;
+    }
+    .home #p{
+        font-size: 18px;
+        top: 400px;
+        left: 10px;
+    }
+    .home #btn2{
+        top: 450px;
+        font-size: 10px;
+        left: 10px;
+        padding:8px;
+    }
+    .about{
+        height: auto;
+        margin: 20px 0px;
+    }
+    .ab1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .ab2 h5{
+        padding: 6px;
+    }
+    .ab2 h2{
+        padding: 6px;
+    }
+    .ab2 p{
+        padding: 6px;
+    }
+    .legal{
+        height: auto;
+    }
+    .le2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .table{
+        height: auto;
+        margin-top: 5px
+    }
+    .ta1{
+        height: auto;
+    }
+    .ta1{
+        flex-direction: column;
+    }
+    .ta h6{
+        padding: 5px;
+    }
+    .ta h3{
+        padding: 5px;
+    }
+    .ta p{
+        padding:5px;
+    }
+    #ta{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #ta h2{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #ta h1{
+        font-size: 40px;
+        padding: 5px;
+    }
+    #ta li{
+        padding: 5px;
+    }
+    #ta button{
+        padding: 5px;
+        font-size: 17px;
+    }
+    .client{
+        height: auto;
+        /* border: 1px solid   black;  */
+    }
+    .cl{
+        height: auto;
+    }
+    .cl1{
+        height: auto    ;
+        flex-direction: column;
+    }
+    .team{
+        height: auto;
+    }
+    .te{
+        height: auto    ;
+    }
+    .te1{
+        height: auto;
+        flex-direction: column; 
+    }
+    .contact{
+        height: auto;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    .foot{
+        font-size: 15px;
+    }
+    
+}
+@media(min-width:0px) and (max-width:360px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo{
+        height: 60px;
+        width: 10%;
+    }
+    .logo span{
+        font-family: 'Sigmar', cursive;
+        position: absolute;
+        left: 10%;
+        top: 40px;
+        font-size: 25px;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        background-color:white;
+        display: none;
+    }
+    #fa1{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 28px
+    }
+    header button{
+        display: none;
+    }
+    .home{
+        height: 85vh;
+        width: 100%;
+    }
+    .home h1{
+        top: 280px;
+        font-size: 20px;
+        left: 10px;
+    }
+    .home h2{
+        top: 310px;
+        font-size: 20px;
+        left: 10px;
+    }
+    .home p{
+        top: 350px;
+        font-size: 18px;
+        left: 10px;
+    }
+    .home #p{
+        font-size: 18px;
+        top: 400px;
+        left: 10px;
+    }
+    .home #btn2{
+        top: 450px;
+        font-size: 10px;
+        left: 10px;
+        padding:8px;
+    }
+    .about{
+        height: auto;
+        margin: 20px 0px;
+    }
+    .ab1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .ab2 h5{
+        padding: 6px;
+    }
+    .ab2 h2{
+        padding: 6px;
+    }
+    .ab2 p{
+        padding: 6px;
+    }
+    .legal{
+        height: auto;
+    }
+    .le2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .table{
+        height: auto;
+        margin-top: 5px
+    }
+    .ta1{
+        height: auto;
+    }
+    .ta1{
+        flex-direction: column;
+    }
+    .ta h6{
+        padding: 5px;
+    }
+    .ta h3{
+        padding: 5px;
+    }
+    .ta p{
+        padding:5px;
+    }
+    #ta{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #ta h2{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #ta h1{
+        font-size: 40px;
+        padding: 5px;
+    }
+    #ta li{
+        padding: 5px;
+    }
+    #ta button{
+        padding: 5px;
+        font-size: 17px;
+    }
+    .client{
+        height: auto;
+        /* border: 1px solid   black;  */
+    }
+    .cl{
+        height: auto;
+    }
+    .cl1{
+        height: auto    ;
+        flex-direction: column;
+    }
+    .team{
+        height: auto;
+    }
+    .te{
+        height: auto    ;
+    }
+    .te1{
+        height: auto;
+        flex-direction: column; 
+    }
+    .contact{
+        height: auto;
+    }
+    .con1{
+        flex-direction: column;
+    }
+    .foot{
+        font-size: 15px;
+    }
+    
+}
