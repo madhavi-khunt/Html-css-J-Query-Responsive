@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="head">
+        <div class="logo">
+            <h1>RetreatM5</h1>
+        </div>
+        <i class="fa fa-bars" id="fa1"></i>
+        <nav>
+            <ul>
+                <li>Our philosophy</li>
+                <li>Houses</li>
+                <li>Beneficial</li>
+                <li>blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <i class="fa fa-times" id="fa2"></i>
+    </div>
+    </header>
+
+    <!-- Home Section start -->
+    <section class="home">
+        <h1>YOU CANNOT DO YOGA<br>
+            YOGA IS YOUR NATURAL STATE</h1>
+        <button>Learn More</button>
+    </section>
+    <!-- Home section over -->
+
+    <!-- first section start -->
+    <section class="bg1">
+        <div id="bg1">
+        <h2>YOU CAN ALWAYS CONTROL <br>WHAT GOES ON INSIDE</h2>
+        <p>Donec enim diam vulputate ut. Amet venenatis urna cursus eget<Br> nunc scelerisque viverra mauris. Sit amet venenatis<br> urna cursus eget nunc scelerisque.</p>
+        </div>
+    </section>
+    <!-- First section over -->
+
+    <!-- second section start -->
+    <section class="bg2">
+        <div id="bg2">
+            <div class="i1">
+                <img src="./image/i1.jpg" alt="">
+                <h3>Why you should go to yoga</h3>
+                <p>Scelerisque eu ultrices vitae auctor eu augue ut lectus. Porta non pulvinar neque laoreet sollicitudin nibh.</p>
+                <button>VIEW MORE</button>
+            </div>
+            <div class="i1">
+                <img src="./image/i2.jpg" alt="" srcset="">
+                <h3>Yoga is a way to freedom</h3>
+                <p>Odio facilisis mauris sit amet. At varius vel pharetra vel. Pellentesque pulvinar pellentesque habitant morbi.</p>
+                <button>VIEW MORE</button>
+            </div>
+            <div class="i1">
+                <img src="./image/i3.jpg" alt="">
+                <h3>Yoga is possible for anybody who really...</h3>
+                <p>Odio facilisis mauris sit amet. At varius vel pharetra vel. Pellentesque pulvinar pellentesque habitant morbi.</p>
+                <button>VIEW MORE</button>
+            </div>
+            <div class="i1">
+                <img src="./image/i4.jpg" alt="">
+                <h3>Yoga is the practice of quieting the mind</h3>
+                <p>Scelerisque eu ultrices vitae auctor eu augue ut lectus. Porta non pulvinar neque laoreet sollicitudin nibh.</p>
+                <button>VIEW MORE</button>
+            </div>
+        </div>
+    </section>
+    <!-- Second section over -->
+
+    <!-- Third Section start -->
+    <section class="bg3">
+        <h2>Keep your body in perfect condition</h2>
+        <p>Dignissim diam quis enim lobortis scelerisque fermentum. Ipsum a arcu
+            cursus vitae congue mauris rhoncus. Velit euismod in pellentesque massa
+            placerat duis. Nulla malesuada pellentesque elit eget gravida. Enim sit amet
+            venenatis urna. Venenatis a condimentum vitae sapien pellentesque
+             habitant morbi tristique.</p>
+    </section>
+    <!-- Third section over -->
+
+    <!-- Blog section start -->
+    <section class="blog" id="blog1">
+        <h2>Blog</h2>
+        <div id="blog">
+            <div id="b1">
+                <div class="b2">
+                    <img src="./image/i6.jpg" alt="">
+                    <h3>You can always control what goes on inside</h3>
+                    <p>Scelerisque eu ultrices vitae auctor eu augue ut lectus.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="b2">
+                    <img src="./image/i7.webp" alt="">
+                    <h3>Why you should go to yoga</h3>
+                    <p>Odio facilisis mauris sit amet. At varius vel pharetra vel.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="b2">
+                    <img src="./image/i8.jpg" alt="">
+                    <h3>Yoga is a way to freedom</h3>
+                    <p>Phasellus faucibus scelerisque eleifend donec pretium. In nulla posuere sollicitudin.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section over -->
+
+    <!-- contact section start -->
+    <section class="con">
+        <h3>Contact us</h3>
+        <form action="">
+            <input type="text" placeholder="Enter Your FullName" required ><br><br>
+            <input type="email" placeholder="Enter your Email" required><br><br>
+            <input type="text" placeholder="message" required><br><Br>
+            <Button id="btn">Submit</Button>
+        </form>
+    </section>
+    <!-- contact section over -->
+
+
+    <!-- Footer start -->
+    <footer>
+        <div class="foot">
+        <h5>Copyright 2022 Mobirise - All Rights Reserved</h5>
+        <h6>Created by Madhavi Khunt</h6>
+    </div>
+    </footer>
+    <!-- footer over -->
+
+</body>
+<script>
+    $(Document).ready(function(){
+        $("#fa1").click(function(){
+            $("nav ul").toggle(1000);
+        });
+        // $("#fa2").click(function(){
+        //     $("nav ul").hide();
+        // });
+        $("input").click(function(){
+            $("input").css("box-shadow", "3px 3px 3px 5px green");
+        });
+    });
+</script>
+</html>
